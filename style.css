@@ -23,7 +23,7 @@
     color: var(--var-text-color-dark);
    }
 
-   header{
+   header .tt{
     height:5rem;
     background-color: #9178f3;
     padding: 0 2rem;
@@ -38,7 +38,7 @@
     z-index: 1000;
     }
 
-   header nav ul {
+   header .tt nav ul {
      display: flex;
      align-items: center;
      list-style: none; 
@@ -207,13 +207,11 @@
 
    @media screen and (max-width: 768px) {
 
-    header nav {
-      display: none;
+    .tt {
+      flex-direction: column;
     }
     
     #hero{
-      
-      background: saddlebrown;
       min-height: 100vh;
     }
 
